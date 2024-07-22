@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Kurs</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>KALKULATOR KURS</h1>
+        <div class="card">
+            <div class="form">
+                <div class="input">
+                    <input type="text" value="" id="inputUang" placeholder="Nilai Rupiah, Rp. 1.000.000">
+                    <select id="mataUang">
+                        <option value="EUR">EUR ( € )</option>
+                        <option value="USD">USD ( $ )</option>
+                    </select>
+                </div>
+                <div class="btn">
+                    <button type="button" onclick="cekkurs()">Lacak Kurs</button>
+                    <button type="button" onclick="konversi()">Konversi Mata Uang</button>
+                </div>
+
+                <div class="hiden">
+                    <hr>
+                    <h3>Hasil Yang didapat : <span id="Hasil"></span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>

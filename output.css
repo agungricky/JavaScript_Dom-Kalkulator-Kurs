@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body .container {
+  background-color: rgba(4, 83, 4, 0.4);
+  width: 100%;
+  height: 100vh;
+}
+body .container h1 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+body .container .card {
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  background-color: white;
+  border-radius: 50px;
+}
+body .container .card .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+body .container .card .form .input {
+  width: 100%;
+  text-align: center;
+}
+body .container .card .form .input #inputUang {
+  width: 50%;
+  padding: 20px;
+  border-radius: 30px;
+}
+body .container .card .form .input #mataUang {
+  width: 20%;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 30px;
+}
+body .container .card .form .btn {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+body .container .card .form .btn button {
+  padding: 10px 50px;
+}
+body .container .card .form .hiden {
+  display: none;
+  width: 90%;
+  text-align: center;
+}
+body .container .card .form .hiden hr {
+  border-color: rgb(99, 99, 99);
+  background-color: rgb(100, 100, 100);
+  margin-top: 10px;
+}/*# sourceMappingURL=output.css.map */
